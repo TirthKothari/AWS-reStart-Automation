@@ -1,0 +1,902 @@
+[
+  {
+    "title": "KC - Basic Computing Concepts",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956453",
+    "module_name": "AWS re/Start Launch",
+    "module_index": 2,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:40:36.167599",
+    "error": null
+  },
+  {
+    "title": "KC - An Introduction to Linux",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956456",
+    "module_name": "AWS re/Start Launch",
+    "module_index": 2,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:40:36.167639",
+    "error": null
+  },
+  {
+    "title": "KC - Linux Command Line",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956458",
+    "module_name": "AWS re/Start Launch",
+    "module_index": 2,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:40:36.167644",
+    "error": null
+  },
+  {
+    "title": "KC - Users and Groups",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956461",
+    "module_name": "AWS re/Start Launch",
+    "module_index": 2,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:40:36.167646",
+    "error": null
+  },
+  {
+    "title": "KC - What is Amazon Web Services?",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956525",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:40:49.700698",
+    "error": null
+  },
+  {
+    "title": "KC - What is Cloud Computing?",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956529",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:46:37.371009",
+    "error": null
+  },
+  {
+    "title": "KC - Advantages of Cloud Computing",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956531",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:48:16.053479",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Cloud Computing",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956533",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:57:20.605264",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Infrastructure Overview",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956542",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T02:59:20.771518",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Services and Service Categories",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956546",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:01:10.234938",
+    "error": null
+  },
+  {
+    "title": "KC - Shared Responsibility Model",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956549",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:32:49.140418",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Amazon EC2",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956557",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:06:35.880869",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Networking",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956563",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:32:51.632283",
+    "error": null
+  },
+  {
+    "title": "KC - Internet Protocol [IP]",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956573",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:32:55.708280",
+    "error": null
+  },
+  {
+    "title": "KC - IP Subnetting",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956582",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:33:45.116508",
+    "error": null
+  },
+  {
+    "title": "KC - Amazon VPC",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956590",
+    "module_name": "AWS Fundamentals: Getting Started - Part 1",
+    "module_index": 4,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:07:59.697607",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Amazon S3",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956604",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:14:31.319310",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Databases",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956609",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:15:50.527371",
+    "error": null
+  },
+  {
+    "title": "KC - Creating Tables and Learning Different Data Types",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956615",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:54:05.278260",
+    "error": null
+  },
+  {
+    "title": "KC - Inserting Data into a Database",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956621",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:16:08.224044",
+    "error": null
+  },
+  {
+    "title": "KC - Selecting Data from a Database",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956625",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:33:48.544494",
+    "error": null
+  },
+  {
+    "title": "KC - Performing a Conditional Search",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956629",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:33:52.811840",
+    "error": null
+  },
+  {
+    "title": "KC - Working with Functions",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956635",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:35:20.516856",
+    "error": null
+  },
+  {
+    "title": "KC - Organizing Data",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956643",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:35:23.646924",
+    "error": null
+  },
+  {
+    "title": "KC - Retrieving Data from Multiple Tables",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956650",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:35:24.052770",
+    "error": null
+  },
+  {
+    "title": "KC - Amazon RDS",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956654",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:35:26.466300",
+    "error": null
+  },
+  {
+    "title": "KC - Amazon DynamoDB",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956660",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:35:25.884140",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Security",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956669",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:36:20.608098",
+    "error": null
+  },
+  {
+    "title": "KC - Network Hardening",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956675",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:36:21.904630",
+    "error": null
+  },
+  {
+    "title": "KC - Systems Hardening",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956680",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:36:22.402870",
+    "error": null
+  },
+  {
+    "title": "KC - Data Security",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956683",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:36:23.735068",
+    "error": null
+  },
+  {
+    "title": "KC - Public Key Infrastructure",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956687",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:36:22.269808",
+    "error": null
+  },
+  {
+    "title": "KC - Identity Management",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956691",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:37:22.260414",
+    "error": null
+  },
+  {
+    "title": "KC - AWS IAM",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956696",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:37:24.334987",
+    "error": null
+  },
+  {
+    "title": "KC - Detection",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956701",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:37:24.695900",
+    "error": null
+  },
+  {
+    "title": "KC - Analysis",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956705",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:37:24.738305",
+    "error": null
+  },
+  {
+    "title": "KC - AWS CloudTrail",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956709",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:37:25.473531",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Config",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956713",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:38:23.949820",
+    "error": null
+  },
+  {
+    "title": "KC - Trusted Advisor",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956716",
+    "module_name": "AWS Fundamentals: Getting Started - Part 2",
+    "module_index": 5,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:38:25.184773",
+    "error": null
+  },
+  {
+    "title": "KC - Security Best Practices",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956725",
+    "module_name": "AWS Fundamentals: Getting Started - Part 3",
+    "module_index": 6,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:38:24.671993",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Security Compliance Program",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956734",
+    "module_name": "AWS Fundamentals: Getting Started - Part 3",
+    "module_index": 6,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:38:25.644985",
+    "error": null
+  },
+  {
+    "title": "KC - Fundamentals of AWS Pricing",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956738",
+    "module_name": "AWS Fundamentals: Getting Started - Part 3",
+    "module_index": 6,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:38:26.331543",
+    "error": null
+  },
+  {
+    "title": "KC - System Operations",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956810",
+    "module_name": "Systems Operations",
+    "module_index": 8,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:39:27.603395",
+    "error": null
+  },
+  {
+    "title": "KC - Tooling and Automation",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956861",
+    "module_name": "Tooling and Automation",
+    "module_index": 9,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:39:27.739018",
+    "error": null
+  },
+  {
+    "title": "KC - Servers",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956905",
+    "module_name": "Servers",
+    "module_index": 10,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:39:27.871310",
+    "error": null
+  },
+  {
+    "title": "KC - Scaling and Name Resolution",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2956970",
+    "module_name": "Scaling and Name Resolution",
+    "module_index": 11,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:39:26.777991",
+    "error": null
+  },
+  {
+    "title": "KC - Serverless and Containers",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957027",
+    "module_name": "Serverless and Containers",
+    "module_index": 12,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:39:27.379168",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Database Services",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957080",
+    "module_name": "AWS Database Services",
+    "module_index": 13,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:40:29.410450",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Networking Services",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957123",
+    "module_name": "AWS Networking Services",
+    "module_index": 14,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:40:28.287866",
+    "error": null
+  },
+  {
+    "title": "KC - Storage and Archiving",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957188",
+    "module_name": "Storage and Archiving",
+    "module_index": 15,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:40:28.590913",
+    "error": null
+  },
+  {
+    "title": "KC - Monitoring and Security",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957241",
+    "module_name": "Monitoring and Security",
+    "module_index": 16,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:40:28.283508",
+    "error": null
+  },
+  {
+    "title": "KC - Managing Resource Consumption",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957290",
+    "module_name": "Managing Resource Consumption",
+    "module_index": 17,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:40:28.740996",
+    "error": null
+  },
+  {
+    "title": "KC - Creating Automated Repeatable Deployments",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957346",
+    "module_name": "Automated and Repeatable Deployments",
+    "module_index": 18,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:41:30.016507",
+    "error": null
+  },
+  {
+    "title": "KC - Assessment Scenario Certification Preparation",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957451",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:44:48.676596",
+    "error": null
+  },
+  {
+    "title": "KC - Scenario Test Strategy Practice",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957453",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:41:50.676144",
+    "error": null
+  },
+  {
+    "title": "KC - Cloud Computing",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957457",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:52:10.270456",
+    "error": null
+  },
+  {
+    "title": "KC - Cloud Economics",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957458",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:41:50.379148",
+    "error": null
+  },
+  {
+    "title": "KC - AWS Global Infrastructure",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957462",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:41:51.491124",
+    "error": null
+  },
+  {
+    "title": "KC - Compute",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957467",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:42:40.067390",
+    "error": null
+  },
+  {
+    "title": "KC - Identity and Access Management [IAM]",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957471",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:43:47.813731",
+    "error": null
+  },
+  {
+    "title": "KC - Amazon Virtual Private Cloud [VPC]",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957474",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:43:30.650848",
+    "error": null
+  },
+  {
+    "title": "KC - Storage",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957476",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:43:10.665958",
+    "error": null
+  },
+  {
+    "title": "KC - Databases",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957480",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:43:47.991664",
+    "error": null
+  },
+  {
+    "title": "KC - Billing and Support",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957481",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:44:32.628118",
+    "error": null
+  },
+  {
+    "title": "KC - Cloud Architecting",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957484",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:44:43.596758",
+    "error": null
+  },
+  {
+    "title": "KC - Balancing - Scaling - Monitoring",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957487",
+    "module_name": "Exam Prep",
+    "module_index": 20,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:45:09.982418",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Programming",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957670",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:44:47.738270",
+    "error": null
+  },
+  {
+    "title": "KC - Introduction to Python",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957677",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:45:29.531190",
+    "error": null
+  },
+  {
+    "title": "KC - Python Basics",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957697",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:45:42.118856",
+    "error": null
+  },
+  {
+    "title": "KC - Flow Control",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957719",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:45:45.062159",
+    "error": null
+  },
+  {
+    "title": "KC - Functions",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957737",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:45:42.998965",
+    "error": null
+  },
+  {
+    "title": "KC - Modules and Libraries",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957758",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:46:04.194550",
+    "error": null
+  },
+  {
+    "title": "KC - Python for System Administration",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957766",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:46:25.214237",
+    "error": null
+  },
+  {
+    "title": "KC - Debugging and Testing",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957777",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:46:40.575215",
+    "error": null
+  },
+  {
+    "title": "KC - DevOps and Continuous Integration",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957788",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:46:41.525124",
+    "error": null
+  },
+  {
+    "title": "KC - Configuration Management",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957794",
+    "module_name": "Python Programming (Optional)",
+    "module_index": 22,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:46:40.463326",
+    "error": null
+  },
+  {
+    "title": "KC - An Introduction to Linux",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957809",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:46:57.682264",
+    "error": null
+  },
+  {
+    "title": "KC - Linux Command Line",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957815",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:51:49.809969",
+    "error": null
+  },
+  {
+    "title": "KC - Users and Groups",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957822",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:47:28.470902",
+    "error": null
+  },
+  {
+    "title": "KC - Editing Files",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957832",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:47:39.014179",
+    "error": null
+  },
+  {
+    "title": "KC - Working with the File System",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957838",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:47:38.178151",
+    "error": null
+  },
+  {
+    "title": "KC - Working with Files",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957845",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:47:38.008692",
+    "error": null
+  },
+  {
+    "title": "KC - Managing File Permissions",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957852",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:47:57.037523",
+    "error": null
+  },
+  {
+    "title": "KC - Working with Commands",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957859",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:48:28.950996",
+    "error": null
+  },
+  {
+    "title": "KC - Managing Processes",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957867",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:48:36.420548",
+    "error": null
+  },
+  {
+    "title": "KC - Managing Services",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957876",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:48:35.635387",
+    "error": null
+  },
+  {
+    "title": "KC - The Bash Shell",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957884",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:48:35.379344",
+    "error": null
+  },
+  {
+    "title": "KC - Bash Shell Scripts",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957893",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:48:51.851738",
+    "error": null
+  },
+  {
+    "title": "KC - Software Management",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957903",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:49:31.852434",
+    "error": null
+  },
+  {
+    "title": "KC - Managing Log Files",
+    "url": "https://awsrestart.instructure.com/courses/4639/modules/items/2957912",
+    "module_name": "Linux (Optional)",
+    "module_index": 23,
+    "status": "completed",
+    "score": "100/100",
+    "completed_at": "2026-11-11T03:49:36.756697",
+    "error": null
+  }
+]

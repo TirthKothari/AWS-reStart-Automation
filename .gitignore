@@ -1,0 +1,26 @@
+# Credentials and Secrets (NEVER commit to GitHub)
+.env
+*.env
+
+# Browser profile, active sessions, and cookies
+browser_profile/
+*.session
+
+# Generated Screenshots and Logs
+kc_screenshots/
+*.log
+
+# Nested git repositories / external data dumps
+kc_repo/
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db

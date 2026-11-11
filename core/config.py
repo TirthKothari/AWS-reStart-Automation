@@ -28,7 +28,26 @@ PROGRESS_MATERIALS_FILE = (WORKSPACE_DIR / "material_progress.json").resolve()
 
 # Canvas URLs
 BASE_CANVAS_URL = "https://awsrestart.instructure.com"
-COURSE_ID = "4639"
+
+def get_course_id():
+    """Reads course_id from .env or defaults to 4639."""
+    env_path = WORKSPACE_DIR / ".env"
+    if env_path.exists():
+        try:
+            cfg = dotenv_values(str(env_path), encoding="utf-8")
+            if cfg.get("course_id"):
+                return str(cfg.get("course_id")).strip()
+        except Exception:
+            pass
+        try:
+            cfg = dotenv_values(str(env_path), encoding="utf-16")
+            if cfg.get("course_id"):
+                return str(cfg.get("course_id")).strip()
+        except Exception:
+            pass
+    return "4639"
+
+COURSE_ID = get_course_id()
 COURSE_URL = f"{BASE_CANVAS_URL}/courses/{COURSE_ID}"
 LOGIN_URL = f"{BASE_CANVAS_URL}/login/canvas"
 MODULES_URL = f"{COURSE_URL}/modules"

@@ -36,7 +36,13 @@ if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
 
 from core.config import ensure_directories
-from core.progress import print_master_dashboard, print_kc_summary, print_labs_summary, print_materials_summary
+from core.progress import (
+    print_master_dashboard,
+    print_kc_summary,
+    print_labs_summary,
+    print_materials_summary,
+    reset_all_progress,
+)
 from core.scanner import scan_and_extract_tasks
 from core.kc_engine import run_kc_automator
 from core.lab_engine import run_lab_automator
@@ -63,14 +69,14 @@ Examples:
         "subcommand",
         nargs="?",
         default=None,
-        choices=["kc", "kcs", "quiz", "quizzes", "lab", "labs", "material", "materials", "study", "scan", "status", "all"],
-        help="Automation mode: kc, labs, materials, scan, status, or all",
+        choices=["kc", "kcs", "quiz", "quizzes", "lab", "labs", "material", "materials", "study", "scan", "status", "reset", "all"],
+        help="Automation mode: kc, labs, materials, scan, status, reset, or all",
     )
     parser.add_argument(
         "--mode",
         type=str,
         default=None,
-        choices=["kc", "kcs", "quiz", "quizzes", "lab", "labs", "material", "materials", "study", "scan", "status", "all"],
+        choices=["kc", "kcs", "quiz", "quizzes", "lab", "labs", "material", "materials", "study", "scan", "status", "reset", "all"],
         help="Alternative parameter for mode",
     )
     parser.add_argument(
@@ -120,6 +126,10 @@ Examples:
 
     if args.status or mode == "status":
         print_master_dashboard()
+        return
+
+    if mode == "reset":
+        reset_all_progress()
         return
 
     if not mode:

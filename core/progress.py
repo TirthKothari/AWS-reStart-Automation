@@ -38,6 +38,20 @@ def save_json(filepath: Path, data):
         json.dump(data, f, indent=2)
 
 
+def ensure_tasks_extracted():
+    """
+    Returns tasks from TASKS_FILE.
+    If TASKS_FILE does not exist or is empty (e.g. for a brand-new user),
+    automatically triggers the course module scanner to populate it from Canvas.
+    """
+    tasks = load_json(TASKS_FILE, [])
+    if not tasks:
+        from .scanner import scan_and_extract_tasks
+        print("[*] No local course catalog found. Auto-scanning Canvas modules for your account...", flush=True)
+        tasks = scan_and_extract_tasks(headless=False, force=True)
+    return tasks
+
+
 # ==========================================
 # Knowledge Checks Progress Functions
 # ==========================================
@@ -49,7 +63,7 @@ def init_kc_progress():
         return existing
 
     # Fallback: extract quizzes from extracted_tasks.json
-    tasks = load_json(TASKS_FILE, [])
+    tasks = ensure_tasks_extracted()
     kc_items = []
     for t in tasks:
         if t.get("task_type") == "quiz":
@@ -112,7 +126,7 @@ def init_labs_progress():
     if isinstance(existing, list) and len(existing) > 0:
         return existing
 
-    tasks = load_json(TASKS_FILE, [])
+    tasks = ensure_tasks_extracted()
     save_json(PROGRESS_LABS_FILE, tasks)
     return tasks
 
@@ -149,7 +163,7 @@ def init_materials_progress():
     if isinstance(existing, list) and len(existing) > 0:
         return existing
 
-    tasks = load_json(TASKS_FILE, [])
+    tasks = ensure_tasks_extracted()
     mat_items = []
     for t in tasks:
         if t.get("task_type") == "study_material":
@@ -235,3 +249,29 @@ def print_master_dashboard():
     print("-" * 68, flush=True)
     print(f" OVERALL COURSE       {total_completed:4d} / {total_tasks:4d}             {overall_pct:6.1f}%    {'COMPLETE' if total_completed == total_tasks else 'IN PROGRESS'}", flush=True)
     print("=" * 68 + "\n", flush=True)
+
+
+def reset_all_progress():
+    """
+    Clears all local progress and catalog files so that a user can start completely fresh.
+    The next command will auto-scan Canvas for their account.
+    """
+    cleared = []
+    for filepath in [PROGRESS_KC_FILE, PROGRESS_LABS_FILE, PROGRESS_MATERIALS_FILE, TASKS_FILE]:
+        if filepath.exists():
+            try:
+                filepath.unlink()
+                cleared.append(filepath.name)
+            except Exception as e:
+                print(f"[!] Warning: Could not delete {filepath.name}: {e}", flush=True)
+
+    print("\n" + "=" * 62, flush=True)
+    print("           Course Progress Reset Complete", flush=True)
+    print("=" * 62, flush=True)
+    if cleared:
+        print(f" Cleared files: {', '.join(cleared)}", flush=True)
+    else:
+        print(" No existing progress files found to clear.", flush=True)
+    print(" Next time you run the automator, it will auto-scan Canvas", flush=True)
+    print(" to discover your account's specific tasks and progress.", flush=True)
+    print("=" * 62 + "\n", flush=True)

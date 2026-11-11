@@ -73,12 +73,22 @@ playwright install chromium
 ```
 
 ### 3. Configure Credentials
-Create a `.env` file in the project root:
+Create a `.env` file in the project root (you can copy `.env.example`):
 ```env
 username=your_canvas_email@example.com
 password=your_canvas_password
+
+# Optional: override Canvas Course ID (defaults to 4639)
+# course_id=4639
 ```
 *(Supports both UTF-8 and UTF-16 encodings automatically).*
+
+### 4. First-Time Run & Auto-Initialization
+When a new user runs the tool for the first time:
+```powershell
+python aws_automator.py status
+```
+The tool will automatically detect that no local progress files exist, connect to Canvas with their credentials, scan their course modules, discover their specific completed and pending tasks, and generate their own personal progress files (`kc_progress.json`, `course_progress.json`, `material_progress.json`). No manual editing is required!
 
 ---
 
@@ -192,10 +202,15 @@ python aws_automator.py all
 ---
 
 ### 6. Refreshing Course Structure
-
 If new modules or assignments are published on Canvas, rescan the entire course:
 ```powershell
 python aws_automator.py scan --refresh
+```
+
+### 7. Resetting Progress for a Clean Start
+To clear all local progress files and start fresh for a new account or rerun:
+```powershell
+python aws_automator.py reset
 ```
 
 ---
@@ -204,7 +219,7 @@ python aws_automator.py scan --refresh
 
 | Parameter | Options / Type | Description |
 |---|---|---|
-| `mode` | `kc`, `labs`, `materials`, `status`, `scan`, `all` | Selects which component of the course to automate |
+| `mode` | `kc`, `labs`, `materials`, `status`, `scan`, `reset`, `all` | Selects which component of the course to automate |
 | `--concurrency` | Integer (e.g. `2`, `3`, `5`, `10`) | Number of tabs running in parallel |
 | `--limit` | Integer (e.g. `5`, `10`, `20`) | Caps the total number of items to process in the run |
 | `--filter` | String (e.g. `"EC2"`, `"Linux"`) | Case-insensitive title substring filter |

@@ -2,6 +2,10 @@
 .env
 *.env
 
+# Personal Course Progress and Task State (DO NOT commit to GitHub)
+*_progress.json
+extracted_tasks.json
+
 # Browser profile, active sessions, and cookies
 browser_profile/
 *.session
